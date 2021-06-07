@@ -1,6 +1,6 @@
 ; Filename: 	  mmx-xor-decoder_eip.nasm
-; Description: 	XOR Encoder, leveraging fstenv FPU MMX to get EIP (dynamic address) 
-; Author: 	    d7x (d7x.promiselabs.net ; www.promiselabs.net)
+; Description: 	  XOR Encoder, leveraging fstenv FPU MMX to get EIP (dynamic address) 
+; Author: 	  d7x (d7x.promiselabs.net ; www.promiselabs.net)
 ;
 ; Purpose:
 
