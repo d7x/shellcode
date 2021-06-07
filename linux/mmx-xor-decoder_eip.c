@@ -5,9 +5,9 @@
 	Usage: gcc -fno-stack-protector -z execstack -o mmx-xor-decoder_eip mmx-xor-decoder_eip.c
 	
 
-	Created by d7x (original stub by Vivek)
-		d7x.promiselabs.net 
-		www.promiselabs.net
+	*** Created by d7x (original stub by Vivek)
+		https://d7x.promiselabs.net 
+		https://www.promiselabs.net ***
 ***/
 
 #include <stdio.h>
