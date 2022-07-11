@@ -52,7 +52,7 @@ main()
 	DES_set_odd_parity(&iv);
 	DES_ede3_cbc_encrypt( (unsigned char*)shellcode_3des, (unsigned char*)decrypted, sizeof(shellcode_3des), &SchKey1, &SchKey2, &SchKey3,&iv,DES_DECRYPT);
 	
-	// print_data("\n Encrypted",shellcode_3des,sizeof(shellcode_3des));
+	print_data("\n Encrypted",shellcode_3des,sizeof(shellcode_3des));
 	memcpy(shellcode_3des, decrypted, strlen(decrypted) );
 	// strcpy(shellcode_3des, decrypted);
 
